@@ -1,3 +1,8 @@
+/**
+* @author zhangxinxu(.com)
+* @licence MIT
+* @description http://www.zhangxinxu.com/wordpress/?p=7362
+*/
 function drawTextVertical(context, text, x, y) {
   var arrText = text.split('');
   var arrWidth = arrText.map(function (letter) {
