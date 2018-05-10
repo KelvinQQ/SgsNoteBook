@@ -1,0 +1,25 @@
+<!--pages/detail/detail.wxml-->
+<view class="page">
+  <view class='skin-view'>
+    <image src='{{hero.HERO.ICON}}' bindtap='tapImage'></image>
+    <text>{{hero.HERO.INFLUENCE}} {{hero.HERO.NAME}}</text>
+    <text>{{hero.HERO.HORNER}}</text>
+  </view>
+  <view class='skill-view'>
+    <view class='title-margin title-text'>人物技能</view>
+    <block wx:for='{{hero.SKILL}}'>
+      <view class='info-margin info-text'>【{{item.name}}】{{item.info}}</view>
+    </block>
+  </view>
+  <view class='feature-view'>
+    <view class='title-margin title-text'>武将特点</view>
+    <view class='info-margin info-text'>{{hero.FEATURE}}</view>
+  </view>
+  <view class='lifetime-view'>
+    <view class='title-margin title-text'>人物介绍</view>
+    <view class='info-margin info-text'>{{hero.HERO.LIFETIME}}</view>
+  </view>
+  <view class='tip-view'>
+    <view class='tip-text'>—— 点击图片可以保存到手机相册 ——</view>
+  </view>
+</view>

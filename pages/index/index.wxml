@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="page">
+  <view class="weui-cells weui-cells_after-title" wx:if="{{heros.length > 0}}">
+    <block wx:for="{{heros}}">
+      <view class="weui-cell weui-cell_access row_flex flex_start cell_icon_info" bindtap='tapHeroItem' data-choose_item="{{item}}">
+        <image wx:if='{{item.HERO.ICON.length > 0}}' class='cell_icon' mode="aspectFill" src='{{item.HERO.ICON}}'></image>
+        <view class='cell_info column_flex'>
+          <text class='cell_info_title'>{{item.HERO.NAME}}</text>
+          <text class="cell_info_subtitle">包：{{item.HERO.PACKAGE}}</text>
+          <view class='row_flex'>
+            <text class="cell_info_subtitle">势力：{{item.HERO.INFLUENCE}}</text>
+            <text class="cell_info_subtitle margin-left-20">血量：{{item.HEALTH}}</text>
+          </view>
+          <text class="cell_info_subtitle">技能：{{item.SKILL_NAME}}</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

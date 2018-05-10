@@ -1,0 +1,8 @@
+/* pages/share/share.wxss */
+.share-canvas {
+  background-color: white;
+}
+
+.save-button {
+  margin: 10rpx 20rpx;
+}

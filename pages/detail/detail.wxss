@@ -1,0 +1,57 @@
+/* pages/detail/detail.wxss */
+
+.skin-view {
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.skin-view text {
+  writing-mode: vertical-rl;
+  font-size: 70rpx;
+  font-family: "华文行楷";
+}
+
+.title-margin {
+  margin: 10rpx 10rpx;
+}
+
+.info-margin {
+  margin: 10rpx 20rpx;
+}
+
+.title-text {
+  color: black;
+  font-size: 45rpx;
+}
+
+.info-text {
+  color: #d6204b;
+  font-size: 40rpx;
+}
+
+.skin-view image {
+  width: 400rpx;
+  height: 550rpx;
+}
+.tip-text {
+  color: lightgray;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.lifetime-view {
+  margin-top: 20rpx;
+}
+.feature-view {
+  margin-top: 20rpx;
+}
+.skill-view {
+  margin-top: 20rpx;
+}
+.tip-view {
+  height: 80rpx;
+  margin-top: 20rpx;
+}

@@ -1,0 +1,18 @@
+<view class="page">
+  <view class='page__bd influence_category' wx:if="{{influenceItems.length > 0}}">
+    <view class=''>按势力分类</view>
+    <view class="weui-flex tag-list">
+      <block wx:for="{{influenceItems}}">
+        <view class="tag-list-item" bindtap='tapInfluenceItem' data-item="{{item}}">{{item}}</view>
+      </block>
+    </view>
+  </view>
+  <view class='page__bd package_category' wx:if="{{packageItems.length > 0}}">
+    <view class=''>按扩展包分类</view>
+    <view class="weui-flex tag-list">
+      <block wx:for="{{packageItems}}">
+        <view class="tag-list-item" bindtap='tapPackageItem' data-item="{{item}}">{{item}}</view>
+      </block>
+    </view>
+  </view>
+</view>

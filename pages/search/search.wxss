@@ -1,0 +1,29 @@
+/* pages/search/search.wxss */
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+
+.hot_search {
+  margin: 20rpx;
+}
+
+.history_search {
+  margin: 20rpx;
+}
+
+.tag-list {
+   flex-wrap: wrap; 
+}
+.tag-list-item {
+  font-size: 35rpx;
+  text-align: center;
+  border: 1rpx solid #eee;
+  margin: 15rpx;
+  padding: 14rpx 15rpx;
+  border-radius: 0rpx;
+  background-color: rgba(200, 200, 200, 0.1);
+}

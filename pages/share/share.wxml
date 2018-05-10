@@ -1,0 +1,6 @@
+<view>
+  <canvas class='share-canvas' style="width:100%;height:{{canvasHeight}}px" canvas-id="share_canvas"></canvas>
+  <view>
+    <button wx:if='{{showSave}}' class="button-done save-button" type="primary" bindtap="saveShareImage">保存图片</button>
+  </view>
+</view>

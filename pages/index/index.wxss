@@ -1,0 +1,53 @@
+/**index.wxss**/
+.row_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex_start {
+  justify-content: flex-start;
+}
+
+.space_between {
+  justify-content: space-between;
+}
+
+.column_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cell_info {
+  margin-left: 15rpx;
+  height: 250rpx;
+  flex: 1;
+}
+
+.cell_icon_info {
+  height: 280rpx;
+  display: flex;
+  flex-flow: row;
+}
+
+.cell_icon {
+  height: 250rpx;
+  width: 200rpx;
+}
+
+.cell_info_title {
+  width: 100%;
+  font-size: 16px;
+}
+
+.cell_info_subtitle {
+  font-size: 13px;
+  color: #d6204b;
+}
+.margin-left-20 {
+  margin-left: 30rpx;
+}
+.text_align_right {
+  text-align: right;
+}

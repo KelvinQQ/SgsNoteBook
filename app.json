@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/list/list",
+    "pages/share/share",
+    "pages/category/category",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "三国人物手册",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#d6204b",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./resource/hero.png",
+        "selectedIconPath": "./resource/hero_selected.png",
+        "text": "人物"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "./resource/discover.png",
+        "selectedIconPath": "./resource/discover_selected.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "./resource/category.png",
+        "selectedIconPath": "./resource/category_selected.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "./resource/setting.png",
+        "selectedIconPath": "./resource/setting_selected.png",
+        "text": "设置"
+      }
+    ]
+  }
+}
